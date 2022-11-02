@@ -23,8 +23,13 @@
 					<div class="card-body font-weight-bold">
 						<form action="processa_envio.php" method="POST">
 							<div class="form-group">
+								<label for="nome">Nome</label>
+								<input name="nome" type="text" class="form-control" id="nome" placeholder="Nome Completo">
+							</div>
+
+							<div class="form-group">
 								<label for="para">Para</label>
-								<input name="para" type="text" class="form-control" id="para" placeholder="joao@dominio.com.br">
+								<input name="para" type="email" class="form-control" id="para" placeholder="joao@dominio.com.br">
 							</div>
 
 							<div class="form-group">
